@@ -35,6 +35,11 @@ h2 {
 	font-size: 3em;
 }
 
+.greeting, 
+.main-content {
+	margin: 0px 10px;
+}
+
 .icon {
 	color: #EF4B28;
 	display: block;
@@ -43,14 +48,11 @@ h2 {
 	text-align: center;
 }
 
-
-
 .jumbotron {
 	background-image: url(../img/buffalobowl.png);
 	background-size: cover;
 	height: 50vh;
 }
-
 
 .food {
     width: 100%;
@@ -76,66 +78,18 @@ h2 {
 	margin-bottom: 20px;
 }
 
-/*
-.navbar {
-	background-color: #EF4B28;
+.contact-info {
+	padding-top: 30px;
+	padding-bottom: 15px;
 }
 
-.nav-link, 
-.navbar-brand {
-	color: #fff;
-	cursor: pointer;
-	transition: 0.3s;
+.social-icon {
+	color: rgb(102, 102, 102);
+	font-size: 250%;
 }
 
-.nav-link {
-	margin-right: 1em;
-}
-
-.nav-link:hover,
-.navbar-brand:hover {
-	color: #7E1617;
-	text-decoration: none;
-}
-
-.navbar-collapse {
-	justify-content: flex-end;
-}
-
-.navbar-toggler {
-	background: #fff;
-}
-.bean-nav {
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: .8em;
-	color: #7E1617;
-}
-
-.bean-nav-box {
-	margin-top: 200px;
-}
-
-.bean-nav:hover {
-	color: #EF4B28;
-	text-decoration: none;
-}
-*/
-
-.bean-3-col {
-	margin-top: 150px;
-	margin-bottom: 50px;
-}
-
-.bean-readmore {
-	color: #EF4B28;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-
-.bean-readmore:hover {
-	color: #7E1617;
-	text-decoration: none;
+footer {
+	margin: 20px 10px;
 }
 
 .menu-item {
@@ -158,11 +112,6 @@ h2 {
 	margin: auto;
 	margin-top: 150px;
 	margin-bottom: 50px;
-}
-
-footer {
-	clear: both;
-	margin-top: 50px;
 }
 
 h5 {
