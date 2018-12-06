@@ -9,30 +9,23 @@ body, html{
 	display: block;
 }
 
-.rounded, .btn {
-	display: block;
-	margin: auto;
-}
-
 p {
 	text-align: center;
 }
 
-h2, h4 {
-	color: #7E1617;
+h2 {
+	color: #EF4B28;
 	font-family: 'Lobster', cursive;
 	font-size: 2em;
 	text-align: center;
+	margin-top: 10px;
 }
 
-h3{
+h3,
+h4 {
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 1.1em;
-}
-
-h2 {
-	font-size: 3em;
 }
 
 .greeting, 
@@ -95,34 +88,25 @@ footer {
 .menu-item {
 	text-transform: uppercase;
 	font-weight: bold;
-	color: #EF4B28;
 }
 
 .menu-pic {
+	display: block;
+	margin: auto;
+	max-width: 200px;
+	border-radius: 50%;
 	margin-top: 50px;
 }
 
-.bean-column {
-	padding-left: 30px;
-	padding-right: 30px;
+@media (max-width: 576px) { 
+	span.text-muted {
+		display: none;
+	}
 }
 
-#marquee-photo {
-	display: block;
-	margin: auto;
-	margin-top: 150px;
-	margin-bottom: 50px;
+@media (min-width: 577px) and (max-width: 768px) {
+	.social {
+		margin: auto;
+		display: block;
+	}
 }
-
-h5 {
-	clear: both;
-	text-align: center;
-}
-
-#map-canvas {
-	width: 500px;
-    height: 400px;
-    margin: auto;
-    display: block;
-}
-
