@@ -23,9 +23,12 @@ h2 {
 
 h3,
 h4 {
-	text-transform: uppercase;
 	text-align: center;
 	font-size: 1.1em;
+}
+
+h4 {
+	text-transform: uppercase;
 }
 
 .greeting, 
@@ -90,11 +93,27 @@ footer {
 	font-weight: bold;
 }
 
+.side-item {
+	margin-bottom: 5px;
+}
+
+.sprout-item {
+	margin-bottom: 5px;
+}
+
+.drink {
+	margin-bottom: 0;
+}
+
 .menu-pic {
 	display: block;
 	margin: auto;
 	max-width: 200px;
 	border-radius: 50%;
+	margin-top: 50px;
+}
+
+.gluten-free {
 	margin-top: 50px;
 }
 
